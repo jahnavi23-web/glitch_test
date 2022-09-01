@@ -17,7 +17,7 @@ const IP_ADDR = "192.168.43.131"; // Redmi Hotspot IP
 export class MeetClass {
   constructor() {
     this.peer = null;
-    this.PEER_CLOUD = false;
+    this.PEER_CLOUD = true;
 
     this.myPeerID = null;
     this.myPeerName = null;
